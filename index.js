@@ -116,6 +116,7 @@ function renderWeatherInfo(weatherInfo) {
 
 function getLocation() {
     if(navigator.geolocation) {
+        console.log("get LOcation fun par hu");
         navigator.geolocation.getCurrentPosition(showPosition);
     }
     else {
